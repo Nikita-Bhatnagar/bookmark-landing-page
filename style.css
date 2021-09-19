@@ -1,0 +1,119 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.login a{
+    background-color: hsl(0, 94%, 66%);
+    padding:6px 24px 6px 24px !important;
+    border-radius:4px;
+    color:#fff !important;
+    box-shadow: 0 5px 8px -5px hsl(229, 8%, 60%);
+    
+}
+nav ul a{
+    text-decoration:none;
+    color: #000 !important;
+    font-size: 12px;
+    padding-left: 16px !important;
+    padding-right: 16px!important;
+
+
+}
+.intro-head{
+    padding-left: 120px;
+}
+.intro-head p{
+    color: hsl(229, 8%, 60%);
+    padding-top:20px;
+    font-size: 16px;
+}
+.btn-chrome{
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 6px;
+    padding:10px 15px;
+    color:#fff;
+    font-size: 12px;
+    border:none;
+    outline: none;
+}
+.btn-firefox{
+    box-shadow: 0 5px 8px -5px hsl(229, 8%, 60%) ;
+    border:none;
+    outline:none;
+    padding:10px 15px;
+    font-size: 12px;
+}
+.shapes{
+    display: flex;
+    position: absolute;
+    top:100px;
+    left:110px;
+    
+}
+.imgandshape{
+    position:relative;
+}
+.imgandshape img{
+    width:500px;
+}
+.semicircle{
+    height: 250px;
+    width:100px;
+    border-radius:200px 0 0 200px ;
+    background-color: hsl(231, 69%, 60%);
+    position:relative;
+   
+    z-index:-1;
+}
+.rect{
+    height:250px;
+    width:320px;
+    background-color: hsl(231, 69%, 60%);
+    position:relative;
+   
+    z-index:-1;
+
+}
+#features p{
+  
+   color: hsl(229, 8%, 60%);
+   font-size: 14px;
+}
+@media(max-width:376px)
+{
+    .imgandshape img{
+        width:325px;
+        margin:auto;
+    }
+    .shapes{
+        top:45px;
+        left:70px;
+    }
+    .rect{
+        width:170px;
+        height:200px;
+    }
+    .semicircle{
+        height:200px;
+    }
+    .intro-head{
+        padding-left:15px;
+        margin:auto;
+    }
+    .btn-chrome{
+        padding:10px 20px;
+    }
+    .btn-firefox{
+        padding:10px 20px;
+    }
+    .login a{
+        background-color: #fff;
+        color:#000;
+    }
+    #features p{
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
