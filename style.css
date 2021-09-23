@@ -73,7 +73,7 @@ nav ul a:hover{
 .shapes{
     display: flex;
     position: absolute;
-    top:160px;
+    top:110px;
     right:0;
     
 }
@@ -86,8 +86,8 @@ nav ul a:hover{
     right:40px;
 }
 .semicircle{
-    height: 250px;
-    width:100px;
+    height: 300px;
+    width:120px;
     border-radius:200px 0 0 200px ;
     background-color: hsl(231, 69%, 60%);
     position:relative;
@@ -95,7 +95,7 @@ nav ul a:hover{
     z-index:-1;
 }
 .rect{
-    height:250px;
+    height:300px;
     width:320px;
     background-color: hsl(231, 69%, 60%);
     position:relative;
